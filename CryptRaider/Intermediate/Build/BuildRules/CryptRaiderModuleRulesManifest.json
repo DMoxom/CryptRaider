@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\GitHub\\CryptRaider\\CryptRaider\\Source\\CryptRaider\\CryptRaider.Build.cs",
+		"F:\\GitHub\\CryptRaider\\CryptRaider\\Source\\CryptRaider.Target.cs",
+		"F:\\GitHub\\CryptRaider\\CryptRaider\\Source\\CryptRaiderEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.0"
+}
