@@ -5,7 +5,6 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"F:/GitHub/CryptRaider/CryptRaider/Content/CryptRaider/MainLevel.umap",
 				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Textures/T_Bed_A.uasset",
 				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Textures/T_Bed_C.uasset",
 				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Textures/T_Bed_N.uasset",
@@ -398,8 +397,6 @@
 				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Materials/M_Torch_Inst.uasset",
 				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Materials/M_Torture_Chair_Inst.uasset",
 				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Materials/M_Wood_Inst.uasset",
-				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Maps/Demonstration.umap",
-				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Maps/Demonstration_BuiltData.uasset",
 				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Blueprints/BP_Candle.uasset",
 				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Blueprints/BP_CandleHolder_Bronze.uasset",
 				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Blueprints/BP_CandleHolder_Iron.uasset",
@@ -414,7 +411,22 @@
 				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Blueprints/BP_Crypt_Doorway.uasset",
 				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Blueprints/BP_Dungeon_Doorway.uasset",
 				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Blueprints/BP_Hanging_Gibbet_Cage.uasset",
-				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Blueprints/BP_Torch.uasset"
+				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Blueprints/BP_Torch.uasset",
+				"F:/GitHub/CryptRaider/CryptRaider/Content/CryptRaider/Dungeon.umap",
+				"F:/GitHub/CryptRaider/CryptRaider/Content/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset",
+				"F:/GitHub/CryptRaider/CryptRaider/Content/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset",
+				"F:/GitHub/CryptRaider/CryptRaider/Content/FPWeapon/Mesh/SK_FPGun_Physics.uasset",
+				"F:/GitHub/CryptRaider/CryptRaider/Content/FirstPerson/Blueprints/BP_PickUp_Rifle.uasset",
+				"F:/GitHub/CryptRaider/CryptRaider/Content/CryptRaider/BP_Torch_Dungeon.uasset",
+				"F:/GitHub/CryptRaider/CryptRaider/Content/CryptRaider/Character/BP_Player.uasset",
+				"F:/GitHub/CryptRaider/CryptRaider/Content/CryptRaider/BP_CryptRaiderGamemode.uasset",
+				"F:/GitHub/CryptRaider/CryptRaider/Content/FirstPerson/Blueprints/BP_Player.uasset",
+				"F:/GitHub/CryptRaider/CryptRaider/Content/CryptRaider/BP_Player.uasset",
+				"F:/GitHub/CryptRaider/CryptRaider/Content/BP_CryptRaiderGamemode.uasset",
+				"F:/GitHub/CryptRaider/CryptRaider/Content/CryptRaider/MainLevel.umap",
+				"F:/GitHub/CryptRaider/CryptRaider/Content/Dungeon.umap",
+				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Maps/Demonstration.umap",
+				"F:/GitHub/CryptRaider/CryptRaider/Content/MedievalDungeon/Maps/Demonstration_BuiltData.uasset"
 			]
 		}
 	]
