@@ -40,3 +40,7 @@ void UMover::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponent
 	}
 }
 
+void UMover::SetIsOpen(bool NewIsOpen)
+{
+	IsOpen = NewIsOpen;
+}

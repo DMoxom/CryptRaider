@@ -44,4 +44,6 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	float HoldDistance = 150;
+
+	FName GrabbedTag = "Grabbed";
 };

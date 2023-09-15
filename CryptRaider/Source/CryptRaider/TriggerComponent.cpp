@@ -25,4 +25,43 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 {
     Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+    AActor* Actor = GetUnlockActor();
+
+    if (Actor)
+    {
+        UPrimitiveComponent* Component = Cast<UPrimitiveComponent>(Actor->GetRootComponent());
+        if (Component)
+        {
+            Component->SetSimulatePhysics(false);
+        }
+        Actor->AttachToComponent(this, FAttachmentTransformRules::KeepWorldTransform);
+        Mover->SetIsOpen(true);
+    }
+    else
+    {
+        Mover->SetIsOpen(false);
+    }
+}
+
+void UTriggerComponent::SetMover(UMover* NewMover)
+{
+    Mover = NewMover;
+}
+
+AActor* UTriggerComponent::GetUnlockActor() const
+{
+    TArray<AActor*> Actors;
+    GetOverlappingActors(Actors);
+
+    // Same as for (int32 i = 0; i < Actors.Num(); i++)
+    for (AActor* Actor : Actors)
+    {
+        // Change "grabbed" to grabbed tag  from Grabber.cpp. Make a "GetGrabbedTag"
+        if (Actor->ActorHasTag(UnlockActorTag) && !Actor->ActorHasTag("Grabbed"))
+        {
+            return Actor;
+        }
+    }
+
+    return nullptr;
 }
