@@ -1,7 +1,9 @@
 F:\GitHub\CryptRaider\CryptRaider\Source\CryptRaider\CryptRaiderCharacter.h
-F:\GitHub\CryptRaider\CryptRaider\Source\CryptRaider\CryptRaiderGameMode.h
 F:\GitHub\CryptRaider\CryptRaider\Source\CryptRaider\CryptRaiderPlayerController.h
 F:\GitHub\CryptRaider\CryptRaider\Source\CryptRaider\CryptRaiderProjectile.h
-F:\GitHub\CryptRaider\CryptRaider\Source\CryptRaider\TP_PickUpComponent.h
-F:\GitHub\CryptRaider\CryptRaider\Source\CryptRaider\TP_WeaponComponent.h
+F:\GitHub\CryptRaider\CryptRaider\Source\CryptRaider\CryptRaiderGameMode.h
 F:\GitHub\CryptRaider\CryptRaider\Source\CryptRaider\Mover.h
+F:\GitHub\CryptRaider\CryptRaider\Source\CryptRaider\Grabber.h
+F:\GitHub\CryptRaider\CryptRaider\Source\CryptRaider\TP_WeaponComponent.h
+F:\GitHub\CryptRaider\CryptRaider\Source\CryptRaider\TP_PickUpComponent.h
+F:\GitHub\CryptRaider\CryptRaider\Source\CryptRaider\TriggerComponent.h
