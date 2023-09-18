@@ -56,7 +56,7 @@ AActor* UTriggerComponent::GetUnlockActor() const
     // Same as for (int32 i = 0; i < Actors.Num(); i++)
     for (AActor* Actor : Actors)
     {
-        // Change "grabbed" to grabbed tag  from Grabber.cpp. Make a "GetGrabbedTag"
+        // Change "grabbed" to grabbed tag from Grabber.cpp. Make a "GetGrabbedTag"
         if (Actor->ActorHasTag(UnlockActorTag) && !Actor->ActorHasTag("Grabbed"))
         {
             return Actor;
